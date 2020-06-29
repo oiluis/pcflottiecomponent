@@ -1,0 +1,31 @@
+{
+  "name": "pcf-project",
+  "version": "1.0.0",
+  "description": "Project containing your PowerApps Component Framework (PCF) control.",
+  "scripts": {
+    "build": "pcf-scripts build",
+    "clean": "pcf-scripts clean",
+    "rebuild": "pcf-scripts rebuild",
+    "start": "pcf-scripts start"
+  },
+  "dependencies": {
+    "@lottiefiles/lottie-player": "^0.5.1",
+    "@types/node": "^10.12.18",
+    "@types/powerapps-component-framework": "^1.2.0",
+    "@types/react-lottie": "^1.2.5",
+    "axios": "^0.19.2",
+    "bodymovin": "^4.13.0",
+    "guid-typescript": "^1.0.9",
+    "lottie-react-web": "^2.2.2",
+    "lottie-web": "^5.6.10",
+    "office-ui-fabric-react": "^7.121.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-lottie": "^1.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.41",
+    "pcf-scripts": "^1",
+    "pcf-start": "^1"
+  }
+}
