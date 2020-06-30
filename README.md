@@ -4,11 +4,11 @@ This is a PCF wrapper for the [Lottie](http://lottiefiles.com) Animation Library
 [Watch and enjoy :)](https://youtu.be/RC1P0RsiqSE)
 
 Once you imported the solution on your environment, you just need to create a new Canvas App, import the Code Component and add the LottieComponent on your canvas.
-Make sure you have the Code Component feature enabled on your environment:
-https://docs.microsoft.com/en-us/powerapps/developer/component-framework/component-framework-for-canvas-apps#enable-power-apps-component-framework-feature
+[Make sure you have the Code Component feature enabled on your environment](https://docs.microsoft.com/en-us/powerapps/developer/component-framework/component-framework-for-canvas-apps#enable-power-apps-component-framework-feature)
 
-In case you are new to Code Components (aka PCF) and you would like to know how to import and add a PCF on your canvas apps, just need to follow these steps:
-https://docs.microsoft.com/en-us/powerapps/developer/component-framework/component-framework-for-canvas-apps#add-components-to-a-canvas-app
+
+In case you are new to Code Components (aka PCF) and you would like to know how to import and add a PCF on your canvas apps, just need to follow [these steps](https://docs.microsoft.com/en-us/powerapps/developer/component-framework/component-framework-for-canvas-apps#add-components-to-a-canvas-app).
+
 
 ## Controling the animation
 ### Basics
