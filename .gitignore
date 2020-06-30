@@ -1,15 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# generated directory
-**/generated
-
-# output directory
-/out
-
-# msbuild output directories
-/bin
-/obj
-
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

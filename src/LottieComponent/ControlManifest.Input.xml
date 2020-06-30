@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="Eax" constructor="LottieComponent" version="0.0.83" display-name-key="LottieComponent" description-key="Lottie description" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="LottieAnimationURL" display-name-key="LottieAnimationURL" description-key="The JSON Lottie Animation URL" of-type="SingleLine.Text" usage="input" required="true" />
+    <!-- when possible, change it to isPlaying and set the default value equals to 'false'. The way that it is configured currently, the isStopped has its default value equals to 'false' for lt 1 sec on Canvas-->
+    <property name="IsStopped" display-name-key="IsStopped" description-key="Whether the animation is stopped or not" of-type="TwoOptions" usage="bound" default-value="true" />
+    <property name="IsPaused" display-name-key="IsPaused" description-key="Whether the animation is paused or not" of-type="TwoOptions" usage="bound" default-value="true" />
+    <property name="StartAnimationToken" display-name-key="StartAnimationToken" description-key="GUID to start the animation" of-type="SingleLine.Text" usage="bound" default-value="" />
+    <property name="StopAnimationToken" display-name-key="StopAnimationToken" description-key="In case you want to stop the animation, this is the GUID used to start the animation" of-type="SingleLine.Text" usage="input" />
+    <property name="PauseAnimationToken" display-name-key="PauseAnimationToken" description-key="In case you want to pause the animation, this is the GUID used to start the animation" of-type="SingleLine.Text" usage="input" />
+    <property name="Loop" display-name-key="Loop" description-key="Whether the animation should loop when it reaches the last frame" of-type="TwoOptions" usage="input" />
+    <property name="AutoPlay" display-name-key="AutoPlay" description-key="Whether the animation should automatically play or not" of-type="TwoOptions" usage="input" />
+    <property name="StartEndFrame" display-name-key="StartEndFrame" description-key="The initial and the end frame to be played. I.e.: 0,24" of-type="SingleLine.Text" usage="input" />
+    <property name="Speed" display-name-key="Speed" description-key="Sets the animation speed in ms" of-type="Whole.None" usage="input" />
+    <property name="BackgroundColor" display-name-key="BackgroundColor" description-key="The Background Color as hex" of-type="SingleLine.Text" usage="input" />
+    <property name="CurrentFrame" display-name-key="CurrentFrame" description-key="Sets current frame" of-type="Whole.None" usage="bound" />
+    <property name="TotalFrame" display-name-key="TotalFrame" description-key="Sets total frame" of-type="Whole.None" usage="bound" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <!-- UNCOMMENT TO ADD MORE RESOURCES
+      <css path="css/Lottie.css" order="1" />
+      <resx path="strings/Lottie.1033.resx" version="1.0.0" />
+      -->
+    </resources>
+  </control>
+</manifest>
