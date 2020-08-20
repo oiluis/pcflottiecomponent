@@ -23,7 +23,7 @@ After that, if you want to start the animation you can use the AutoPlay property
 
 <img src="/docs/assets/setAnimationToken.png" alt="Start Animation Token" width="600"/>
 
-The animation will only play if you change the value of the "Start Animation Token", that's the reason we are using the internal GUID() function from Power Apps.
+The animation will only play if you change the value of the "Start Animation Token", that's the reason we are using the internal GUID() function from Power Apps, since it will calculate a new unique id every time the user clicks on the start button.
 
 ### Stopping or Pausing an animation
 In case you want stop or pause your animation you will follow these simple steps: 
