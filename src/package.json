@@ -13,7 +13,7 @@
     "@types/node": "^10.12.18",
     "@types/powerapps-component-framework": "^1.2.0",
     "@types/react-lottie": "^1.2.5",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bodymovin": "^4.13.0",
     "guid-typescript": "^1.0.9",
     "lottie-react-web": "^2.2.2",
